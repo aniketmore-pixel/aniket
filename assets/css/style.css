@@ -1880,3 +1880,39 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+
+
+
+
+
+/* Add this at the VERY END of your CSS file */
+.my-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.my-skills span {
+  background: rgba(255, 215, 0, 0.2);
+  color: #d4af37;
+  border: 1px solid #d4af37;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+
+.blog-posts {
+  display: flex;
+  flex-wrap: wrap;      /* Allows images to wrap on smaller screens */
+  justify-content: center; /* Center the images horizontally */
+  gap: 20px;            /* Space between the images */
+}
+.blog-posts img {
+  max-width: 100%;      /* Make images responsive */
+  height: auto;
+}
